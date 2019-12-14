@@ -1,0 +1,191 @@
+{
+    "1": [
+        "<?\\-+>?",
+        "",
+        "[0-9]+(.|,)?[0-9]",
+        "Hey, HeyHey, Hey O, HeyUh, HeyOO",
+        0,
+        2,
+        "eh mercee pour le choco"
+    ],
+    "2": [
+        "<?\\-+>?",
+        "",
+        "",
+        "Hey, HeyHey, HeyHeyHey, HeyHeyHeyHey, HeyHeyHeyHeyHey",
+        1,
+        2,
+        "Propre le bail "
+    ],
+    "3": [
+        "<?-+>?",
+        "[1-9]+[02468]",
+        "[0-9]+[.|,][0-9]+",
+        "HeyO, Hey O, HeyUh, Hey Uh, HeyHey",
+        0,
+        2,
+        "Un cours d'informatique meilleur que d'habitude."
+    ],
+    "4": [
+        "<?-+>?\n",
+        "(\\1\\1)+",
+        "[0-9]*,[0-9]*",
+        "Hey OOOOOOOO",
+        1,
+        2,
+        "Franchement, propre le bail."
+    ],
+    "5": [
+        "<?-+>?",
+        "2?4?6?8?",
+        "[0-9]+(\\.[0-9]+)?",
+        "HeyHey, , Hey0, Uh",
+        1,
+        2,
+        "mieux que les normaux"
+    ],
+    "6": [
+        "<?\\-+>?",
+        "[0,2,4,6,8]+",
+        "[0-9]+(\\,|\\.)[0-9]?",
+        "Heyo, Heyy Uh, Heyyy , Heyyy o, Heyyyyyyy,",
+        0,
+        2,
+        "Super chouette et int\u00e9ressant !!!!"
+    ],
+    "7": [
+        "<?-+>?",
+        "([1-9][0-9]*[02468])|[02468]",
+        "([0-9]+[.,][0-9]+)|([0-9]+)",
+        "Hey O, HeyHeyHeyUhUhUh, HeyHey , Hey, HeyHeyOOOOOOOOO",
+        1,
+        2,
+        "Tr\u00e8s int\u00e9ressante et divertissante, le concept d\u2019expression r\u00e9guli\u00e8re est tr\u00e8s fun"
+    ],
+    "8": [
+        "(<|>)?+[\\-]+",
+        "[1-9]{1,}",
+        "[0-9]+\\,|\\.[0-9]+",
+        "Hey Hey o, Hey o, Hey Uh, Hey Uh Uh, Hey Uh Uh Uh",
+        0,
+        2,
+        "cool"
+    ],
+    "9": [
+        "<?[1,]>?",
+        "[1-9]{1,}[2]",
+        "[0-9]{1,};?[0-9]{1,}",
+        "Hey uh Hey o Hey Hey o Hey Hey uh Hey ooooooooooooooooooooooooooooooooooooooooooooooo\n\n\n\n",
+        0,
+        2,
+        "sympa le chocolat est bon :)"
+    ],
+    "11": [
+        "(<->)+",
+        "(2,)",
+        "[0-9]+",
+        "HeyO Uh, Hey OUh, HeyHeyO Uh, HeyHey OUh, HeyHeyHeyO Uh",
+        0,
+        2,
+        "Divertissant et int\u00e9ressant "
+    ],
+    "12": [
+        "[<\\>\\]?[-]{1,}[<\\>\\]?",
+        "2\\+2\\+",
+        "[0-9]+",
+        "HeyO, Hey O, Hey Uh, HeyHeyHeyHeyHey O, HeyHeyHeyHeyHeyHeyHeyHeyHeyHeyHeyO",
+        0,
+        2,
+        "[10]+ / 10\\    (10/10) nrvax o max"
+    ],
+    "13": [
+        "(<}?(-)+(>)?",
+        "[1-9]*(2|4|6|8|0)",
+        "[0-9]+(.|,)[0-9]*",
+        "Hey,Hey O,HeyO,Hey Uh,HeyUh\n",
+        1,
+        2,
+        "C'\u00e9tai vraiment sympa, surtout le chocolat."
+    ],
+    "14": [
+        "(-){1,}|(<)(-){1,}",
+        "(1-9)*(2|4|6|8|0)",
+        "[0-9]{1,}.[0-9]{1,}",
+        "Hey o, Hey Hey o, Hey Uh, Hey Hey Uh, Hey",
+        0,
+        2,
+        "C'est hyper sympa d'apprendre de cette mani\u00e8re \u00e7a change de d'habitude et c'est plus interactif, on voit moins le temps pass\u00e9"
+    ],
+    "15": [
+        "<?-+>?",
+        "[0-9]*[0,2,4,6,8]",
+        "[0-9]+([.,\\,][0-9]+)?",
+        "Hey OOOO, HeyHeyHey, HeyHeyHeyUhUhUh, HeyHeyHeyHeyHeyHeyHey, HeyHeyOOO",
+        0,
+        2,
+        "int\u00e9ressant"
+    ],
+    "16": [
+        "<?-+>?",
+        "[0-9]*[0,2,4,6,8]",
+        "[0-9]+([\\,,.][0-9]+)?",
+        "Hey,HeyHey,HeyHeyHey,HeyHeyHeyHey,HeyHeyHeyHeyHey",
+        0,
+        2,
+        "Original, assez efficace, sympa"
+    ],
+    "17": [
+        "(<|-)(-)(>|-)",
+        "[n*2]",
+        "",
+        "",
+        0,
+        2,
+        "tr\u00e8s instructive et tr\u00e8s bon moyen d'interaction avec la classe"
+    ],
+    "18": [
+        "{<}[-]{1, }{>}",
+        "[0-9]{1, }[0,2,4,6,8]",
+        "\n",
+        "",
+        0,
+        2,
+        "Int\u00e9ressant mais trop difficile "
+    ],
+    "19": [
+        "<?-+>?",
+        "([2468])|([1-9][0-9]*[02468])",
+        "([0-9]*.[0-9]*)|([0-9]*,[0-9]*)",
+        "Hey,HeyHey,HeyHeyHey,HeyHeyHeyHey,Hey Oh",
+        1,
+        0,
+        "Tr\u00e8s int\u00e9ressant, avec l'outil informatique de Frog c'\u00e9tait tr\u00e8s pratique. "
+    ],
+    "20": [
+        "(\\<)?(\\-)+(\\>)?",
+        "[0-9]+[02468]",
+        "([0-9]+)?(.|,)?[0-9]+",
+        "Hey\nHey Hey\nHey Hey Hey\nHey Hey Hey Hey\nHey Hey Hey Hey Hey",
+        0,
+        2,
+        "Au top\n"
+    ],
+    "21": [
+        "<?[\\-]+>?",
+        "[0-9]+[02468]",
+        "[0-9]+(.|,[0-9]+)?",
+        "HeyHeyHey oooo, Hey, HeyHeyUhUh",
+        1,
+        2,
+        "C'\u00e9tait tr\u00e8s int\u00e9ressant"
+    ],
+    "22": [
+        "<?(\\-)+>?",
+        "2\\*(1|2)+",
+        "[0-9](\\.|,[0-9])?",
+        "Hey, Hey , HeyO, HeyUhUh, Hey OO",
+        0,
+        2,
+        "C''\u00e9tait assez amusant de d\u00e9couvrir de nouvelles choses qui me serviront peut-\u00eatre plus tard. Merci !"
+    ]
+}
