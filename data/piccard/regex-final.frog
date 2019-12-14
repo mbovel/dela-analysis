@@ -1,0 +1,510 @@
+{
+  "graph": {
+    "_id": "ck3qxw5h900x701yw3qxa39uj",
+    "name": "RegEx-final",
+    "ownerId": "pZikgPmceJMjmvxwj",
+    "createdAt": "2019-12-04T06:57:56.925Z",
+    "uiStatus": "active",
+    "graphVersion": 2,
+    "broken": false,
+    "duration": 60,
+    "published": true,
+    "parentId": "ck3qxmfj4000b3b7iis1romej",
+    "sessionGraph": true
+  },
+  "activities": [
+    {
+      "_id": "ck3qxw5hb00x801yw4nceesc0",
+      "length": 5,
+      "plane": 3,
+      "startTime": 3,
+      "title": "Intro PDF",
+      "activityType": "ac-prez",
+      "configVersion": 1,
+      "data": {
+        "studentCannotGoFurther": true,
+        "studentMustFollow": false,
+        "everyoneCanEdit": false,
+        "title": "Introduction",
+        "pdf_url": "/minio/uploads/ck3q1rn0y001g3b7gvrqo9wqq"
+      },
+      "participationMode": "everyone",
+      "actualStartingTime": "2019-12-04T07:09:11.584Z",
+      "actualClosingTime": "2019-12-04T07:27:59.010Z"
+    },
+    {
+      "_id": "ck3qxw5hb00x901yw9apf584t",
+      "length": 5,
+      "plane": 1,
+      "startTime": 17,
+      "title": "Video Quantificateur",
+      "activityType": "ac-video",
+      "configVersion": 1,
+      "data": {"playing": false, "url": "https://youtu.be/sK-ObestpxU"},
+      "actualStartingTime": "2019-12-04T07:27:59.808Z",
+      "actualClosingTime": "2019-12-04T07:36:35.299Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xa01ywflqe4g78",
+      "length": 5,
+      "plane": 1,
+      "startTime": 17,
+      "title": "Video Gr Alternative",
+      "activityType": "ac-video",
+      "configVersion": 1,
+      "data": {"playing": false, "url": "https://youtu.be/iWAdVB80liY"},
+      "createdAt": "2019-12-02T16:40:50.675Z",
+      "actualStartingTime": "2019-12-04T07:28:00.365Z",
+      "actualClosingTime": "2019-12-04T07:36:35.300Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xb01yw1ead4j2k",
+      "length": 5,
+      "plane": 1,
+      "startTime": 17,
+      "title": "Video Class char",
+      "activityType": "ac-video",
+      "configVersion": 1,
+      "data": {"playing": false, "url": "https://youtu.be/lRNYxx9YaD8"},
+      "createdAt": "2019-12-02T16:40:52.710Z",
+      "template": null,
+      "actualStartingTime": "2019-12-04T07:28:00.715Z",
+      "actualClosingTime": "2019-12-04T07:36:35.301Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xc01ywhsnw46tl",
+      "length": 5,
+      "plane": 1,
+      "startTime": 17,
+      "title": "Texte Quantificateur",
+      "activityType": "ac-text",
+      "configVersion": 1,
+      "data": {
+        "title": "Quantificateurs étendus",
+        "text": "<p>Pour le moment nous avons vu les quantificateurs suivants&nbsp;:</p>\n<p><img src=\"/minio/uploads/ck3q1at5o000z3b7gegl5tda0\" width=\"624\" height=\"320\"/></p>\n<p>Ces dernier ne nous donnent pas beaucoup de liberté vis à vis du nombre d’occurrences possible pour une expression. Parfois nous aimerions pouvoir représenter le fait qu’une expressions apparaît entre 5 et 10 fois par exemple. Nous allons voire comment faire cela.</p>\n<h2><code><strong>{n, m}</strong></code></h2>\n<p>Le quantificateur <code>{n, m}</code> nous permet de dire que l’expression qui précède peut se répéter entre <em>n</em> et <em>m</em> fois.</p>\n<h4><strong>Exemple</strong></h4>\n<p>L’expression <code>Yao{1, 3}uh</code> correspond aux chaînes <code>Yaouh</code>, <code>Yaoouh</code> et <code>Yaooouh</code>.</p>\n<h2><code><strong>{n,}</strong></code></h2>\n<p>Le quantificateur <code>{n,}</code> nous permet de dire que l’expression qui précède peut être répétée <em>n</em> fois ou plus.</p>\n<h4><strong>Exemple</strong></h4>\n<p>L’expression <code>Zz{2, }</code> permet de représenter les chaînes : <code>Zzz</code>, <code>Zzzz</code>, <code>Zzzzz</code>, <code>Zzzzzz</code>, etc.</p>\n<h2><code><strong>{n}</strong></code></h2>\n<p>Le quantificateur <code>{n}</code> nous permet de dire que l’expression qui précède doit être répétée <em>n</em> fois exactement.</p>\n<h4><strong>Exemple</strong></h4>\n<p>L’expression <code>10{9}</code> permet de représenter LA chaîne : <code>1000000000</code>.</p>"
+      },
+      "actualStartingTime": "2019-12-04T07:28:01.540Z",
+      "actualClosingTime": "2019-12-04T07:36:35.313Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xd01ywgmm946jq",
+      "length": 5,
+      "plane": 1,
+      "startTime": 17,
+      "title": "Texte Gr Alternative",
+      "activityType": "ac-text",
+      "configVersion": 1,
+      "data": {
+        "title": "Groupes et alternatives",
+        "text": "<p>Grâces aux quantificateurs nous pouvons indiquer qu’<em>un seul</em> caractère dans une chaîne doit être répété. Cependant, nous aimerions parfois pouvoir appliquer ce concept à des expressions plus grandes (mots, phrases, etc.).</p>\n<h2><strong>Groupes</strong></h2>\n<p>En utilisant les parenthèses, nous pouvons créer un <em>groupe</em>. Si le groupe est suivi d’un quantificateur alors c’est tout le groupe qui sera répété.</p>\n<h4><strong>Exemples</strong></h4>\n<ol>\n  <li>L’expression <code>Tra(la)+</code> permet de représenter les chaînes <code>Trala</code>, <code>Tralala</code>, <code>Tralalala</code>, etc.</li>\n  <li>L’expression <code>Madame ( (Ada )?Lovelace)?</code> permet de représenter les chaînes <code>Madame</code>, <code>Madame Lovelace</code> et <code>Madame Ada Lovelace</code>.</li>\n</ol>\n<h2><strong>Alternatives</strong></h2>\n<p>En utilisant la barre verticale (<code>Alt+7</code> sur Mac et <code>AltGr+7</code> sur Windows) on peut donner le choix entre deux expressions.</p>\n<p><strong>Attention:</strong> Contrairement à ce que nous avons vu avec les quantificateurs. La barre verticale ne s’applique par seulement au caractère qui précède mais à toute l’expression se trouvant à gauche ou à droite. Nous allons voir dans le deuxième exemple comment s’accommoder de cette bizarrerie.</p>\n<h4><strong>Exemples</strong></h4>\n<ol>\n  <li>L’expression <code>Madame|Monsieur</code> permet de représenter les chaînes <code>Madame</code> ou <code>Monsieur</code>.</li>\n  <li>L’expression <code>Bonjour (Madame|Monsieur)</code> permet de représenter les chaînes <code>Bonjour Madame</code> ou <code>Bonjour Monsieur</code>.</li>\n</ol>"
+      },
+      "createdAt": "2019-12-02T16:42:53.155Z",
+      "actualStartingTime": "2019-12-04T07:28:02.016Z",
+      "actualClosingTime": "2019-12-04T07:36:35.315Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xe01yw7tg6d93a",
+      "length": 5,
+      "plane": 1,
+      "startTime": 17,
+      "title": "Texte Class char",
+      "activityType": "ac-text",
+      "configVersion": 1,
+      "data": {
+        "title": "Classes de charactères",
+        "text": "<p>Nous avons vu comment répéter un caractère précis. Cependant nous aimerions pouvoir exprimer des choses telle que&nbsp;: «répéter plusieurs fois des lettres minuscules» ou encore&nbsp;«répéter plusieurs fois des chiffres».</p>\n<p>Pour cela nous pouvons utiliser les <em>classes de caractères</em> qui nous permettent d’indiquer la liste des caractères possibles entre parenthèses carrées: <code>[abc]</code> par exemple pour «<code>a</code>, <code>b</code> ou <code>c</code>».</p>\n<p>Par soucis de simplicité, on peut lister tous les caractères entre deux caractères en les séparant par un tiret. L’expression <code>[a-z]</code> est donc équivalente à <code>[abcdefghijklmnopqrstuvwxyz]</code>, <code>[0-9]</code> correspond à <code>[0123456789]</code>.</p>\n<h4><strong>Exemples</strong></h4>\n<ol>\n  <li>L’expression <code>cr[iè]me</code> permet de représenter les chaînes <code>crime</code> et <code>crème</code>.</li>\n  <li>L’expression <code>[a-h][1-8]</code> permet de représenter les chaînes <code>a1</code>, <code>a2</code>, …, <code>b1</code>, …, <code>b8</code>, <code>h7</code>, <code>h8</code>.</li>\n  <li>L’expression <code>[A-Za-z0-9]+</code> permet de représenter toutes les chaînes contenant des lettres majuscules ou minuscules, ou des chiffes. Par exemple : <code>camelCase</code>, <code>n00b</code>, <code>YolO</code>, etc.</li>\n</ol>"
+      },
+      "createdAt": "2019-12-02T16:42:53.516Z",
+      "actualStartingTime": "2019-12-04T07:28:02.341Z",
+      "actualClosingTime": "2019-12-04T07:36:35.317Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xf01yw0p1b6yrr",
+      "length": 5,
+      "plane": 2,
+      "startTime": 26,
+      "title": "0_Exercises",
+      "groupingKey": "group",
+      "activityType": "ac-quiz",
+      "configVersion": 1,
+      "data": {
+        "shuffle": "none",
+        "questions": [
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "answers": [],
+            "question": "<p>Écrire une expression régulière correspondant à une date au format <code>YYYY-MM-DD</code> où chaque lettre correspond à une nombre entre 0 et 9.</p>\n<p><br>\nPar exemple:<br>\n<code>2019-12-04</code><br>\n<code>2020-13-32</code></p>\n<p>Mais pas:<br>\n<code>2019-1-1</code><br>\n<code>2019-01-1</code></p>"
+          },
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "question": "<p>Écrire une expression régulière correspondant à un mot (suite d'au moins une lettre majuscule ou minuscule) ou un nombre d'au moins un chiffre (le nombre peut commencer par un zero).<br>\nPar exemple:<br>\n<code>BoNJOUR</code><br>\n<code>salut</code><br>\n<code>SALUT</code><br>\n<code>01234</code><br>\n<code>45678</code></p>\n<p>Mais pas:<br>\n<code>s4lut</code></p>"
+          },
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "question": "<p>Écrire une expression régulière correspondant à une suite de Oh (entre deux et seize occurences) et se terminant par un !.<br>\nPar exemple:<br>\n<code>Oh Oh !</code><br>\n<code>Oh Oh Oh !</code></p>\n<p>Mais pas:<br>\n<code>Oh !</code><br>\n<code>Oh Oh!</code><br>\n<code>!</code></p>"
+          },
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "question": "<p>Écrire une expression régulière correspondant à une suite d’un nombre pair du caractère * (au minimum 2)<br>\nPar exemple:<br>\n<code>**</code><br>\n<code>****</code></p>\n<p>Mais pas:<br>\n<code>*</code><br>\n<code>***</code></p>"
+          },
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "question": "<p>Écrire une expression régulière correspondant à une paire “Prénom Nom” uniquement pour les noms de plus de 7 caractères.<br>\nPar exemple:<br>\n<code>Jacky Tunning</code><br>\n<code>Stan Wawrinka</code></p>\n<p>Mais pas:<br>\n<code>jacky tunning</code><br>\n<code>Jacky tunning</code><br>\n<code>Matthieu Bovel</code></p>"
+          },
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "question": "<p>Écrire une expression régulière correspondant à une suite de coordonnées entières du plan séparées par des virgules. Une virgule en fin de chaîne est autorisée. <br>\nPar exemple:<br>\n<code>(1,2), (5,6), (-3,-4),</code><br>\n<code>(1,2),</code></p>\n<p>Mais pas:<br>\n<code>,</code><br>\n<code>(a,b)</code><br>\n<code>(-1,2),(3,4),</code></p>"
+          }
+        ],
+        "title": "Exercices",
+        "guidelines": "<p>Pour vous entraîner, répondez aux questions suivantes à l'aide de l'interface sur la droite de l'écran</p>",
+        "advancedConfig": true,
+        "hasAnswers": false,
+        "showOne": false,
+        "allowSkip": true
+      },
+      "actualStartingTime": "2019-12-04T07:36:35.416Z",
+      "actualClosingTime": "2019-12-04T08:08:27.267Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xg01yw5dm4cmgn",
+      "length": 5,
+      "plane": 2,
+      "startTime": 26,
+      "title": "1_Regexr",
+      "groupingKey": "group",
+      "activityType": "ac-iframe",
+      "configVersion": 1,
+      "data": {"url": "https://regexr.com/4pub2"},
+      "actualStartingTime": "2019-12-04T07:36:35.805Z",
+      "actualClosingTime": "2019-12-04T08:08:27.269Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xh01ywfh5597fg",
+      "length": 5,
+      "plane": 3,
+      "startTime": 32,
+      "title": "0_Chat",
+      "activityType": "ac-chat",
+      "configVersion": 1,
+      "data": {
+        "hasRobotPrompt": true,
+        "robotPrompt": "Bonne chance. La première équipe qui répond correctement à une question reçoit du chocolat",
+        "title": "Chat de la compétition",
+        "allowAddingLIs": false
+      },
+      "actualStartingTime": "2019-12-04T08:08:27.315Z",
+      "actualClosingTime": "2019-12-04T08:29:05.261Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xi01yw4oef5adn",
+      "length": 5,
+      "plane": 3,
+      "startTime": 32,
+      "title": "1_Competition_pdf",
+      "createdAt": "2019-12-02T17:06:47.977Z",
+      "activityType": "ac-prez",
+      "configVersion": 1,
+      "data": {
+        "studentCannotGoFurther": true,
+        "studentMustFollow": true,
+        "everyoneCanEdit": false,
+        "title": "Questions pour la compétition",
+        "pdf_url": "/minio/uploads/ck3qdgai7000d3b7g3z42m4nr"
+      },
+      "participationMode": "everyone",
+      "actualStartingTime": "2019-12-04T08:08:27.392Z",
+      "actualClosingTime": "2019-12-04T08:29:05.262Z"
+    },
+    {
+      "_id": "ck3qxw5hb00xj01ywec7devxj",
+      "length": 5,
+      "plane": 1,
+      "startTime": 38,
+      "title": "Final Quiz",
+      "activityType": "ac-quiz",
+      "configVersion": 1,
+      "data": {
+        "shuffle": "none",
+        "questions": [
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "answers": [],
+            "question": "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n</ul>"
+          },
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "question": "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>"
+          },
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "question": "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>"
+          },
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "question": "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>"
+          },
+          {
+            "multiple": false,
+            "text": false,
+            "value": false,
+            "question": "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+            "answers": [{"choice": "Oui"}, {"choice": "Non", "isCorrect": true}]
+          },
+          {
+            "multiple": false,
+            "text": false,
+            "value": false,
+            "question": "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+            "answers": [
+              {"choice": "Oui, j'en ai déjà entendu parlé"},
+              {"choice": "Oui, j'en écris déjà matin, midi et soir"},
+              {"choice": "Non. c'est un nouveau concept"}
+            ]
+          },
+          {
+            "multiple": false,
+            "text": true,
+            "value": false,
+            "question": "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+          }
+        ],
+        "title": "Quiz final",
+        "guidelines": "<p><br></p>",
+        "advancedConfig": true,
+        "hasAnswers": false,
+        "showOne": false,
+        "allowSkip": true
+      },
+      "template": {
+        "rz": {
+          "justification": "",
+          "form": {
+            "0": {"text": ""},
+            "1": {"text": ""},
+            "2": {"text": ""},
+            "3": {"text": ""},
+            "4": {"text": ""},
+            "5": {"text": ""}
+          },
+          "coordinates": {"x": 0, "y": 0, "valid": false}
+        },
+        "lis": {}
+      },
+      "actualStartingTime": "2019-12-04T08:29:06.176Z",
+      "actualClosingTime": "2019-12-04T08:46:10.143Z"
+    }
+  ],
+  "operators": [
+    {
+      "_id": "ck3qxw5hb00xk01yw8ua7c7gp",
+      "time": 23.040000000000035,
+      "type": "social",
+      "y": 132,
+      "operatorType": "op-social-name",
+      "title": "ck3on6moh00373b7gpnj5wipw",
+      "data": {
+        "groupingKeys": "group",
+        "studentmapping": "Chen Li,gr10\nPeter,gr11\nAnna,gr10\nAliya,gr11\n1,gr1\n2,gr1\n3,gr1\n4,gr2\n5,gr2\n6,gr2\n7,gr3\n8,gr3\n9,gr3\n10,gr4\n11,gr4\n12,gr4\n13,gr5\n14,gr5\n15,gr5\n16,gr6\n17,gr6\n18,gr6\n19,gr7\n20,gr7\n21,gr7\n22,gr8\n23,gr8\n24,gr8\n25,gr8",
+        "defaultGroupingValues": "gr9"
+      },
+      "configVersion": 1
+    },
+    {
+      "_id": "ck3qxw5hb00xl01yw9fg571x4",
+      "time": 5.639999999999994,
+      "type": "social",
+      "y": 159,
+      "operatorType": "op-social-name",
+      "title": "ck3onc6fr00383b7grxwkdjl1",
+      "data": {
+        "groupingKeys": "text_vid",
+        "studentmapping": "Chen Li,vid_a\nPeter,text_a\nAnna,vid_b\nAliya,text_b\n1,text_a\n2,text_b\n3,text_c\n4,text_a\n5,text_b\n6,text_c\n7,text_a\n8,text_b\n9,text_c\n10,vid_a\n11,vid_b\n12,vid_c\n13,vid_a\n14,vid_b\n15,vid_c\n16,vid_a\n17,vid_b\n18,vid_c\n19,vid_a\n20,vid_b\n21,vid_c\n22,text_a\n23,text_b\n24,text_c\n25,text_a",
+        "defaultGroupingValues": "null"
+      },
+      "configVersion": 1
+    },
+    {
+      "_id": "ck3qxw5hc00xm01ywc6wh7qr7",
+      "time": 12.639999999999997,
+      "type": "control",
+      "y": 38,
+      "operatorType": "op-control-group",
+      "title": "Social->Control",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "social": "text_vid",
+        "who": "text_c"
+      },
+      "configVersion": 1
+    },
+    {
+      "_id": "ck3qxw5hc00xn01ywa2b75vgz",
+      "time": 12.600000000000003,
+      "type": "control",
+      "y": 80,
+      "operatorType": "op-control-group",
+      "title": "Social->Control",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "social": "text_vid",
+        "who": "text_b"
+      },
+      "configVersion": 1
+    },
+    {
+      "_id": "ck3qxw5hc00xo01yw4fr893ko",
+      "time": 12.520000000000005,
+      "type": "control",
+      "y": 124,
+      "operatorType": "op-control-group",
+      "title": "Social->Control",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "social": "text_vid",
+        "who": "text_a"
+      },
+      "configVersion": 1
+    },
+    {
+      "_id": "ck3qxw5hc00xp01yw9lo56ec4",
+      "time": 12.520000000000005,
+      "type": "control",
+      "y": 179,
+      "operatorType": "op-control-group",
+      "title": "Social->Control",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "social": "text_vid",
+        "who": "vid_c"
+      },
+      "configVersion": 1
+    },
+    {
+      "_id": "ck3qxw5hc00xq01yw77vqghjz",
+      "time": 12.480000000000002,
+      "type": "control",
+      "y": 262,
+      "operatorType": "op-control-group",
+      "title": "Social->Control",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "social": "text_vid",
+        "who": "vid_a"
+      },
+      "configVersion": 1
+    },
+    {
+      "_id": "ck3qxw5hc00xr01ywfkdhf5po",
+      "time": 12.52,
+      "type": "control",
+      "y": 223,
+      "operatorType": "op-control-group",
+      "title": "Social->Control",
+      "data": {
+        "applytoall": true,
+        "includeexclude": "include",
+        "social": "text_vid",
+        "who": "vid_b"
+      },
+      "configVersion": 1
+    }
+  ],
+  "connections": [
+    {
+      "_id": "ck3qxw5hc00xs01yw0a16ac8e",
+      "source": {"id": "ck3qxw5hb00xl01yw9fg571x4", "type": "operator"},
+      "target": {"id": "ck3qxw5hc00xm01ywc6wh7qr7", "type": "operator"}
+    },
+    {
+      "_id": "ck3qxw5hc00xt01yw40fw8c3t",
+      "source": {"id": "ck3qxw5hb00xl01yw9fg571x4", "type": "operator"},
+      "target": {"id": "ck3qxw5hc00xn01ywa2b75vgz", "type": "operator"}
+    },
+    {
+      "_id": "ck3qxw5hc00xu01ywc09j5r4v",
+      "source": {"id": "ck3qxw5hb00xl01yw9fg571x4", "type": "operator"},
+      "target": {"id": "ck3qxw5hc00xo01yw4fr893ko", "type": "operator"}
+    },
+    {
+      "_id": "ck3qxw5hc00xv01yw5eqb0633",
+      "source": {"id": "ck3qxw5hb00xl01yw9fg571x4", "type": "operator"},
+      "target": {"id": "ck3qxw5hc00xp01yw9lo56ec4", "type": "operator"}
+    },
+    {
+      "_id": "ck3qxw5hc00xw01ywbuxudj4p",
+      "source": {"id": "ck3qxw5hb00xl01yw9fg571x4", "type": "operator"},
+      "target": {"id": "ck3qxw5hc00xr01ywfkdhf5po", "type": "operator"}
+    },
+    {
+      "_id": "ck3qxw5hc00xx01yw5qe9hop7",
+      "source": {"id": "ck3qxw5hb00xl01yw9fg571x4", "type": "operator"},
+      "target": {"id": "ck3qxw5hc00xq01yw77vqghjz", "type": "operator"}
+    },
+    {
+      "_id": "ck3qxw5hc00xy01yw35fm9mp7",
+      "source": {"id": "ck3qxw5hc00xm01ywc6wh7qr7", "type": "operator"},
+      "target": {"id": "ck3qxw5hb00xe01yw7tg6d93a", "type": "activity"}
+    },
+    {
+      "_id": "ck3qxw5hc00xz01yw9knm8pxh",
+      "source": {"id": "ck3qxw5hc00xn01ywa2b75vgz", "type": "operator"},
+      "target": {"id": "ck3qxw5hb00xd01ywgmm946jq", "type": "activity"}
+    },
+    {
+      "_id": "ck3qxw5hc00y001ywat7b59jp",
+      "source": {"id": "ck3qxw5hc00xo01yw4fr893ko", "type": "operator"},
+      "target": {"id": "ck3qxw5hb00xc01ywhsnw46tl", "type": "activity"}
+    },
+    {
+      "_id": "ck3qxw5hc00y101yw8nrl0gsz",
+      "source": {"id": "ck3qxw5hc00xp01yw9lo56ec4", "type": "operator"},
+      "target": {"id": "ck3qxw5hb00xb01yw1ead4j2k", "type": "activity"}
+    },
+    {
+      "_id": "ck3qxw5hc00y201yw8zhx2wqr",
+      "source": {"id": "ck3qxw5hc00xr01ywfkdhf5po", "type": "operator"},
+      "target": {"id": "ck3qxw5hb00xa01ywflqe4g78", "type": "activity"}
+    },
+    {
+      "_id": "ck3qxw5hc00y301yw1ibs322w",
+      "source": {"id": "ck3qxw5hc00xq01yw77vqghjz", "type": "operator"},
+      "target": {"id": "ck3qxw5hb00x901yw9apf584t", "type": "activity"}
+    },
+    {
+      "_id": "ck3qxw5hc00y401yw6zoc6om3",
+      "source": {"id": "ck3qxw5hb00xk01yw8ua7c7gp", "type": "operator"},
+      "target": {"id": "ck3qxw5hb00xf01yw0p1b6yrr", "type": "activity"}
+    },
+    {
+      "_id": "ck3qxw5hc00y501yw38g550wl",
+      "source": {"id": "ck3qxw5hb00xk01yw8ua7c7gp", "type": "operator"},
+      "target": {"id": "ck3qxw5hb00xg01yw5dm4cmgn", "type": "activity"}
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "ck3qxw5hb00xg01yw5dm4cmgn",
+  "activityData": {
+    "structure": {"groupingKey": "group"},
+    "payload": {
+      "gr1": {"data": {}},
+      "gr2": {"data": {}},
+      "gr3": {"data": {}},
+      "gr4": {"data": {}},
+      "gr5": {"data": {}},
+      "gr9": {"data": {}}
+    }
+  },
+  "type": "product"
+}

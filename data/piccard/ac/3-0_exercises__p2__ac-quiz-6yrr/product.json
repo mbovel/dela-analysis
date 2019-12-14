@@ -1,0 +1,153 @@
+{
+  "_id": "ck3qxw5hb00xf01yw0p1b6yrr",
+  "activityData": {
+    "structure": {"groupingKey": "group"},
+    "payload": {
+      "gr1": {
+        "data": {
+          "questions": [
+            "<p>Écrire une expression régulière correspondant à une date au format <code>YYYY-MM-DD</code> où chaque lettre correspond à une nombre entre 0 et 9.</p>\n<p><br>\nPar exemple:<br>\n<code>2019-12-04</code><br>\n<code>2020-13-32</code></p>\n<p>Mais pas:<br>\n<code>2019-1-1</code><br>\n<code>2019-01-1</code></p>",
+            "<p>Écrire une expression régulière correspondant à un mot (suite d'au moins une lettre majuscule ou minuscule) ou un nombre d'au moins un chiffre (le nombre peut commencer par un zero).<br>\nPar exemple:<br>\n<code>BoNJOUR</code><br>\n<code>salut</code><br>\n<code>SALUT</code><br>\n<code>01234</code><br>\n<code>45678</code></p>\n<p>Mais pas:<br>\n<code>s4lut</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de Oh (entre deux et seize occurences) et se terminant par un !.<br>\nPar exemple:<br>\n<code>Oh Oh !</code><br>\n<code>Oh Oh Oh !</code></p>\n<p>Mais pas:<br>\n<code>Oh !</code><br>\n<code>Oh Oh!</code><br>\n<code>!</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite d’un nombre pair du caractère * (au minimum 2)<br>\nPar exemple:<br>\n<code>**</code><br>\n<code>****</code></p>\n<p>Mais pas:<br>\n<code>*</code><br>\n<code>***</code></p>",
+            "<p>Écrire une expression régulière correspondant à une paire “Prénom Nom” uniquement pour les noms de plus de 7 caractères.<br>\nPar exemple:<br>\n<code>Jacky Tunning</code><br>\n<code>Stan Wawrinka</code></p>\n<p>Mais pas:<br>\n<code>jacky tunning</code><br>\n<code>Jacky tunning</code><br>\n<code>Matthieu Bovel</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de coordonnées entières du plan séparées par des virgules. Une virgule en fin de chaîne est autorisée. <br>\nPar exemple:<br>\n<code>(1,2), (5,6), (-3,-4),</code><br>\n<code>(1,2),</code></p>\n<p>Mais pas:<br>\n<code>,</code><br>\n<code>(a,b)</code><br>\n<code>(-1,2),(3,4),</code></p>"
+          ],
+          "answers": [null, null, null, null, null, null],
+          "answersIndex": [-1, -1, -1, -1, -1, -1],
+          "maxCorrect": 6,
+          "coordinates": {"x": 0, "y": 0},
+          "form": {
+            "0": {"text": "[0-9]{4}\\-[0-9]{2}\\-[0-9]{2}"},
+            "1": {"text": "[A-Za-z]+|[0-9]+"},
+            "2": {"text": "(Oh ){2,16}\\!"},
+            "3": {"text": "(\\*\\*)*"},
+            "4": {"text": "([A-Z][a-z]+ )([A-Z][a-z]{6,})"},
+            "5": {"text": "(\\(([0-9]|\\-[0-9])\\,([0-9]|\\-[0-9])\\)\\, )+"}
+          }
+        }
+      },
+      "gr2": {
+        "data": {
+          "questions": [
+            "<p>Écrire une expression régulière correspondant à une date au format <code>YYYY-MM-DD</code> où chaque lettre correspond à une nombre entre 0 et 9.</p>\n<p><br>\nPar exemple:<br>\n<code>2019-12-04</code><br>\n<code>2020-13-32</code></p>\n<p>Mais pas:<br>\n<code>2019-1-1</code><br>\n<code>2019-01-1</code></p>",
+            "<p>Écrire une expression régulière correspondant à un mot (suite d'au moins une lettre majuscule ou minuscule) ou un nombre d'au moins un chiffre (le nombre peut commencer par un zero).<br>\nPar exemple:<br>\n<code>BoNJOUR</code><br>\n<code>salut</code><br>\n<code>SALUT</code><br>\n<code>01234</code><br>\n<code>45678</code></p>\n<p>Mais pas:<br>\n<code>s4lut</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de Oh (entre deux et seize occurences) et se terminant par un !.<br>\nPar exemple:<br>\n<code>Oh Oh !</code><br>\n<code>Oh Oh Oh !</code></p>\n<p>Mais pas:<br>\n<code>Oh !</code><br>\n<code>Oh Oh!</code><br>\n<code>!</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite d’un nombre pair du caractère * (au minimum 2)<br>\nPar exemple:<br>\n<code>**</code><br>\n<code>****</code></p>\n<p>Mais pas:<br>\n<code>*</code><br>\n<code>***</code></p>",
+            "<p>Écrire une expression régulière correspondant à une paire “Prénom Nom” uniquement pour les noms de plus de 7 caractères.<br>\nPar exemple:<br>\n<code>Jacky Tunning</code><br>\n<code>Stan Wawrinka</code></p>\n<p>Mais pas:<br>\n<code>jacky tunning</code><br>\n<code>Jacky tunning</code><br>\n<code>Matthieu Bovel</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de coordonnées entières du plan séparées par des virgules. Une virgule en fin de chaîne est autorisée. <br>\nPar exemple:<br>\n<code>(1,2), (5,6), (-3,-4),</code><br>\n<code>(1,2),</code></p>\n<p>Mais pas:<br>\n<code>,</code><br>\n<code>(a,b)</code><br>\n<code>(-1,2),(3,4),</code></p>"
+          ],
+          "answers": [null, null, null, null, null, null],
+          "answersIndex": [-1, -1, -1, -1, -1, -1],
+          "maxCorrect": 6,
+          "coordinates": {"x": 0, "y": 0},
+          "form": {
+            "0": {"text": ""},
+            "1": {"text": ""},
+            "2": {"text": ""},
+            "3": {"text": ""},
+            "4": {"text": ""},
+            "5": {"text": ""}
+          }
+        }
+      },
+      "gr3": {
+        "data": {
+          "questions": [
+            "<p>Écrire une expression régulière correspondant à une date au format <code>YYYY-MM-DD</code> où chaque lettre correspond à une nombre entre 0 et 9.</p>\n<p><br>\nPar exemple:<br>\n<code>2019-12-04</code><br>\n<code>2020-13-32</code></p>\n<p>Mais pas:<br>\n<code>2019-1-1</code><br>\n<code>2019-01-1</code></p>",
+            "<p>Écrire une expression régulière correspondant à un mot (suite d'au moins une lettre majuscule ou minuscule) ou un nombre d'au moins un chiffre (le nombre peut commencer par un zero).<br>\nPar exemple:<br>\n<code>BoNJOUR</code><br>\n<code>salut</code><br>\n<code>SALUT</code><br>\n<code>01234</code><br>\n<code>45678</code></p>\n<p>Mais pas:<br>\n<code>s4lut</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de Oh (entre deux et seize occurences) et se terminant par un !.<br>\nPar exemple:<br>\n<code>Oh Oh !</code><br>\n<code>Oh Oh Oh !</code></p>\n<p>Mais pas:<br>\n<code>Oh !</code><br>\n<code>Oh Oh!</code><br>\n<code>!</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite d’un nombre pair du caractère * (au minimum 2)<br>\nPar exemple:<br>\n<code>**</code><br>\n<code>****</code></p>\n<p>Mais pas:<br>\n<code>*</code><br>\n<code>***</code></p>",
+            "<p>Écrire une expression régulière correspondant à une paire “Prénom Nom” uniquement pour les noms de plus de 7 caractères.<br>\nPar exemple:<br>\n<code>Jacky Tunning</code><br>\n<code>Stan Wawrinka</code></p>\n<p>Mais pas:<br>\n<code>jacky tunning</code><br>\n<code>Jacky tunning</code><br>\n<code>Matthieu Bovel</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de coordonnées entières du plan séparées par des virgules. Une virgule en fin de chaîne est autorisée. <br>\nPar exemple:<br>\n<code>(1,2), (5,6), (-3,-4),</code><br>\n<code>(1,2),</code></p>\n<p>Mais pas:<br>\n<code>,</code><br>\n<code>(a,b)</code><br>\n<code>(-1,2),(3,4),</code></p>"
+          ],
+          "answers": [null, null, null, null, null, null],
+          "answersIndex": [-1, -1, -1, -1, -1, -1],
+          "maxCorrect": 6,
+          "coordinates": {"x": 0, "y": 0},
+          "form": {
+            "0": {"text": "[0-9]{4}\\-[0-9]{2}\\-[0-9]{2}"},
+            "1": {"text": "[A-Za-z0-9]+"},
+            "2": {"text": "(Oh ){2,16}\\!"},
+            "3": {"text": "(\\*\\*){1,}"},
+            "4": {"text": "[A-Z]([a-z])+ [A-Z]([a-z]){6,}"},
+            "5": {"text": "\\(-?[0-9],-?[0-9]\\)"}
+          }
+        }
+      },
+      "gr4": {
+        "data": {
+          "questions": [
+            "<p>Écrire une expression régulière correspondant à une date au format <code>YYYY-MM-DD</code> où chaque lettre correspond à une nombre entre 0 et 9.</p>\n<p><br>\nPar exemple:<br>\n<code>2019-12-04</code><br>\n<code>2020-13-32</code></p>\n<p>Mais pas:<br>\n<code>2019-1-1</code><br>\n<code>2019-01-1</code></p>",
+            "<p>Écrire une expression régulière correspondant à un mot (suite d'au moins une lettre majuscule ou minuscule) ou un nombre d'au moins un chiffre (le nombre peut commencer par un zero).<br>\nPar exemple:<br>\n<code>BoNJOUR</code><br>\n<code>salut</code><br>\n<code>SALUT</code><br>\n<code>01234</code><br>\n<code>45678</code></p>\n<p>Mais pas:<br>\n<code>s4lut</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de Oh (entre deux et seize occurences) et se terminant par un !.<br>\nPar exemple:<br>\n<code>Oh Oh !</code><br>\n<code>Oh Oh Oh !</code></p>\n<p>Mais pas:<br>\n<code>Oh !</code><br>\n<code>Oh Oh!</code><br>\n<code>!</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite d’un nombre pair du caractère * (au minimum 2)<br>\nPar exemple:<br>\n<code>**</code><br>\n<code>****</code></p>\n<p>Mais pas:<br>\n<code>*</code><br>\n<code>***</code></p>",
+            "<p>Écrire une expression régulière correspondant à une paire “Prénom Nom” uniquement pour les noms de plus de 7 caractères.<br>\nPar exemple:<br>\n<code>Jacky Tunning</code><br>\n<code>Stan Wawrinka</code></p>\n<p>Mais pas:<br>\n<code>jacky tunning</code><br>\n<code>Jacky tunning</code><br>\n<code>Matthieu Bovel</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de coordonnées entières du plan séparées par des virgules. Une virgule en fin de chaîne est autorisée. <br>\nPar exemple:<br>\n<code>(1,2), (5,6), (-3,-4),</code><br>\n<code>(1,2),</code></p>\n<p>Mais pas:<br>\n<code>,</code><br>\n<code>(a,b)</code><br>\n<code>(-1,2),(3,4),</code></p>"
+          ],
+          "answers": [null, null, null, null, null, null],
+          "answersIndex": [-1, -1, -1, -1, -1, -1],
+          "maxCorrect": 6,
+          "coordinates": {"x": 0, "y": 0},
+          "form": {
+            "0": {"text": "[0-9]{4}-[0-9]{2}-[0-9]{2}"},
+            "1": {"text": "([a-zA-Z])+|([0-9])+"},
+            "2": {"text": "(Oh ){2,16}!"},
+            "3": {"text": "(\\*\\*){1,}"},
+            "4": {"text": "[A-Z][a-z]+ [A-Z][a-z]{6,"},
+            "5": {"text": "(\\(-?[0-9],-?[0-9]\\),)+"}
+          }
+        }
+      },
+      "gr5": {
+        "data": {
+          "questions": [
+            "<p>Écrire une expression régulière correspondant à une date au format <code>YYYY-MM-DD</code> où chaque lettre correspond à une nombre entre 0 et 9.</p>\n<p><br>\nPar exemple:<br>\n<code>2019-12-04</code><br>\n<code>2020-13-32</code></p>\n<p>Mais pas:<br>\n<code>2019-1-1</code><br>\n<code>2019-01-1</code></p>",
+            "<p>Écrire une expression régulière correspondant à un mot (suite d'au moins une lettre majuscule ou minuscule) ou un nombre d'au moins un chiffre (le nombre peut commencer par un zero).<br>\nPar exemple:<br>\n<code>BoNJOUR</code><br>\n<code>salut</code><br>\n<code>SALUT</code><br>\n<code>01234</code><br>\n<code>45678</code></p>\n<p>Mais pas:<br>\n<code>s4lut</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de Oh (entre deux et seize occurences) et se terminant par un !.<br>\nPar exemple:<br>\n<code>Oh Oh !</code><br>\n<code>Oh Oh Oh !</code></p>\n<p>Mais pas:<br>\n<code>Oh !</code><br>\n<code>Oh Oh!</code><br>\n<code>!</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite d’un nombre pair du caractère * (au minimum 2)<br>\nPar exemple:<br>\n<code>**</code><br>\n<code>****</code></p>\n<p>Mais pas:<br>\n<code>*</code><br>\n<code>***</code></p>",
+            "<p>Écrire une expression régulière correspondant à une paire “Prénom Nom” uniquement pour les noms de plus de 7 caractères.<br>\nPar exemple:<br>\n<code>Jacky Tunning</code><br>\n<code>Stan Wawrinka</code></p>\n<p>Mais pas:<br>\n<code>jacky tunning</code><br>\n<code>Jacky tunning</code><br>\n<code>Matthieu Bovel</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de coordonnées entières du plan séparées par des virgules. Une virgule en fin de chaîne est autorisée. <br>\nPar exemple:<br>\n<code>(1,2), (5,6), (-3,-4),</code><br>\n<code>(1,2),</code></p>\n<p>Mais pas:<br>\n<code>,</code><br>\n<code>(a,b)</code><br>\n<code>(-1,2),(3,4),</code></p>"
+          ],
+          "answers": [null, null, null, null, null, null],
+          "answersIndex": [-1, -1, -1, -1, -1, -1],
+          "maxCorrect": 6,
+          "coordinates": {"x": 0, "y": 0},
+          "form": {
+            "0": {"text": "[0-9]{4}-[0-9]{2}-[0-9]{2}"},
+            "1": {"text": "[a-zA-Z]+|[0-9]+"},
+            "2": {"text": "(Oh ){2,16}!"},
+            "3": {"text": "(\\*\\*){1,}"},
+            "4": {"text": ""},
+            "5": {"text": ""}
+          }
+        }
+      },
+      "gr9": {
+        "data": {
+          "questions": [
+            "<p>Écrire une expression régulière correspondant à une date au format <code>YYYY-MM-DD</code> où chaque lettre correspond à une nombre entre 0 et 9.</p>\n<p><br>\nPar exemple:<br>\n<code>2019-12-04</code><br>\n<code>2020-13-32</code></p>\n<p>Mais pas:<br>\n<code>2019-1-1</code><br>\n<code>2019-01-1</code></p>",
+            "<p>Écrire une expression régulière correspondant à un mot (suite d'au moins une lettre majuscule ou minuscule) ou un nombre d'au moins un chiffre (le nombre peut commencer par un zero).<br>\nPar exemple:<br>\n<code>BoNJOUR</code><br>\n<code>salut</code><br>\n<code>SALUT</code><br>\n<code>01234</code><br>\n<code>45678</code></p>\n<p>Mais pas:<br>\n<code>s4lut</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de Oh (entre deux et seize occurences) et se terminant par un !.<br>\nPar exemple:<br>\n<code>Oh Oh !</code><br>\n<code>Oh Oh Oh !</code></p>\n<p>Mais pas:<br>\n<code>Oh !</code><br>\n<code>Oh Oh!</code><br>\n<code>!</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite d’un nombre pair du caractère * (au minimum 2)<br>\nPar exemple:<br>\n<code>**</code><br>\n<code>****</code></p>\n<p>Mais pas:<br>\n<code>*</code><br>\n<code>***</code></p>",
+            "<p>Écrire une expression régulière correspondant à une paire “Prénom Nom” uniquement pour les noms de plus de 7 caractères.<br>\nPar exemple:<br>\n<code>Jacky Tunning</code><br>\n<code>Stan Wawrinka</code></p>\n<p>Mais pas:<br>\n<code>jacky tunning</code><br>\n<code>Jacky tunning</code><br>\n<code>Matthieu Bovel</code></p>",
+            "<p>Écrire une expression régulière correspondant à une suite de coordonnées entières du plan séparées par des virgules. Une virgule en fin de chaîne est autorisée. <br>\nPar exemple:<br>\n<code>(1,2), (5,6), (-3,-4),</code><br>\n<code>(1,2),</code></p>\n<p>Mais pas:<br>\n<code>,</code><br>\n<code>(a,b)</code><br>\n<code>(-1,2),(3,4),</code></p>"
+          ],
+          "answers": [null, null, null, null, null, null],
+          "answersIndex": [-1, -1, -1, -1, -1, -1],
+          "maxCorrect": 6,
+          "coordinates": {"x": 0, "y": 0},
+          "form": {
+            "0": {"text": ""},
+            "1": {"text": ""},
+            "2": {"text": ""},
+            "3": {"text": ""},
+            "4": {"text": ""},
+            "5": {"text": ""}
+          }
+        }
+      }
+    }
+  },
+  "type": "product"
+}

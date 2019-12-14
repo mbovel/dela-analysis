@@ -1,0 +1,11 @@
+{
+  "_id": "ck3qxw5hc00xq01yw77vqghjz",
+  "type": "control",
+  "controlStructure": {
+    "all": {
+      "structure": "individual",
+      "mode": "include",
+      "payload": {"RbBQv7qMZ843Z32hc": true, "RQam3nPuq39MfgodH": true}
+    }
+  }
+}

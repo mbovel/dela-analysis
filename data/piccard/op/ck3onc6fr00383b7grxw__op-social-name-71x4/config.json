@@ -1,0 +1,5 @@
+{
+  "groupingKeys": "text_vid",
+  "studentmapping": "Chen Li,vid_a\nPeter,text_a\nAnna,vid_b\nAliya,text_b\n1,text_a\n2,text_b\n3,text_c\n4,text_a\n5,text_b\n6,text_c\n7,text_a\n8,text_b\n9,text_c\n10,vid_a\n11,vid_b\n12,vid_c\n13,vid_a\n14,vid_b\n15,vid_c\n16,vid_a\n17,vid_b\n18,vid_c\n19,vid_a\n20,vid_b\n21,vid_c\n22,text_a\n23,text_b\n24,text_c\n25,text_a",
+  "defaultGroupingValues": "null"
+}

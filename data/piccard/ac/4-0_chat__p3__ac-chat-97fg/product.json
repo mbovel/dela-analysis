@@ -1,0 +1,570 @@
+{
+  "_id": "ck3qxw5hb00xh01ywfh5597fg",
+  "activityData": {
+    "structure": "all",
+    "payload": {
+      "all": {
+        "data": {
+          "ck3r0etne00z901ywfbmddojf": {
+            "id": "ck3r0etne00z901ywfbmddojf",
+            "msg": "Bonne chance. La première équipe qui répond correctement à une question reçoit du chocolat",
+            "user": "Friendly robot"
+          },
+          "ck3r0fxf700012c7t1uwaawqg": {
+            "order": 2,
+            "msg": "Bonne chance les loulous",
+            "user": "7",
+            "id": "ck3r0fxf700012c7t1uwaawqg"
+          },
+          "ck3r0g2o300012c7r3jx8pgn5": {
+            "order": 3,
+            "msg": "allez les amis",
+            "user": "12",
+            "id": "ck3r0g2o300012c7r3jx8pgn5"
+          },
+          "ck3r0ghrv00012c7t7cjxacab": {
+            "order": 4,
+            "msg": "]",
+            "user": "13",
+            "id": "ck3r0ghrv00012c7t7cjxacab"
+          },
+          "ck3r0gthr00012c7rqcil49cj": {
+            "order": 5,
+            "msg": "[a-z][a-zA-Z]+",
+            "user": "11",
+            "id": "ck3r0gthr00012c7rqcil49cj"
+          },
+          "ck3r0h4cu00012c7t33pt2ltc": {
+            "order": 6,
+            "msg": "[a-z][A-Za-z]+",
+            "user": "2",
+            "id": "ck3r0h4cu00012c7t33pt2ltc"
+          },
+          "ck3r0h70n00023h7gkcu04ppd": {
+            "order": 7,
+            "msg": "Bonne réponse !",
+            "user": "Timoté Vaucher",
+            "id": "ck3r0h70n00023h7gkcu04ppd"
+          },
+          "ck3r0iqf300022c7tezlyy1cf": {
+            "order": 8,
+            "msg": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+            "user": "13",
+            "id": "ck3r0iqf300022c7tezlyy1cf"
+          },
+          "ck3r0jao000022c7rcikb2e2e": {
+            "order": 9,
+            "msg": "([0-9]|-){4}-[0-9]{2}-[0-9]{2}",
+            "user": "12",
+            "id": "ck3r0jao000022c7rcikb2e2e"
+          },
+          "ck3r0jemc00022c7rgx8akz8k": {
+            "order": 10,
+            "msg": "([0-9]|-){4}-(0-9){2}-(0-9){2}",
+            "user": "11",
+            "id": "ck3r0jemc00022c7rgx8akz8k"
+          },
+          "ck3r0jkri00012c7rs38qihm2": {
+            "order": 11,
+            "msg": "([0-9]{4}|\\-)-[0-9]{2}-[0-9]{2}",
+            "user": "3",
+            "id": "ck3r0jkri00012c7rs38qihm2"
+          },
+          "ck3r0jn3i00022c7t84hyun11": {
+            "order": 12,
+            "msg": "-|([0-9]{4}\\-[0-9]{2}\\[0-9]\\{2})",
+            "user": "7",
+            "id": "ck3r0jn3i00022c7t84hyun11"
+          },
+          "ck3r0lt4500033h7giog5acoz": {
+            "order": 13,
+            "msg": "Question 2",
+            "user": "Timoté Vaucher",
+            "id": "ck3r0lt4500033h7giog5acoz"
+          },
+          "ck3r0lz4000032c7rjofn6ip8": {
+            "order": 14,
+            "msg": "[0-9]+dD",
+            "user": "11",
+            "id": "ck3r0lz4000032c7rjofn6ip8"
+          },
+          "ck3r0m9oj00032c7rg53as7i0": {
+            "order": 15,
+            "msg": "[0,9]{1,2} dB",
+            "user": "12",
+            "id": "ck3r0m9oj00032c7rg53as7i0"
+          },
+          "ck3r0mely00022c7tpnl3d6jh": {
+            "order": 16,
+            "msg": "[0-9]{2}[ dB]",
+            "user": "2",
+            "id": "ck3r0mely00022c7tpnl3d6jh"
+          },
+          "ck3r0mfj700032c7t7id7v5l8": {
+            "order": 17,
+            "msg": "[0-9]{0,2} (dB)",
+            "user": "7",
+            "id": "ck3r0mfj700032c7t7id7v5l8"
+          },
+          "ck3r0mqmf00012c7topfr8pcg": {
+            "order": 18,
+            "msg": "[0-99] dB",
+            "user": "14",
+            "id": "ck3r0mqmf00012c7topfr8pcg"
+          },
+          "ck3r0mzxn00042c7r3x4q1jhw": {
+            "order": 19,
+            "msg": "[0,9][0-9] dB",
+            "user": "12",
+            "id": "ck3r0mzxn00042c7r3x4q1jhw"
+          },
+          "ck3r0nhc900022c7rj2stbvfy": {
+            "order": 20,
+            "msg": "[1-9]?[0-9]+ dB",
+            "user": "3",
+            "id": "ck3r0nhc900022c7rj2stbvfy"
+          },
+          "ck3r0nhqq00052c7rsljhfkrw": {
+            "order": 21,
+            "msg": "[0-9][0-9] dB",
+            "user": "12",
+            "id": "ck3r0nhqq00052c7rsljhfkrw"
+          },
+          "ck3r0niec00032c7tacahctho": {
+            "order": 22,
+            "msg": "[0|0-9{2}][ dB]",
+            "user": "2",
+            "id": "ck3r0niec00032c7tacahctho"
+          },
+          "ck3r0nk7100012c7t1dy8mykp": {
+            "order": 23,
+            "msg": "[0-9][0-9]( dB)",
+            "user": "15",
+            "id": "ck3r0nk7100012c7t1dy8mykp"
+          },
+          "ck3r0nsk100062c7rv3latxoq": {
+            "order": 24,
+            "msg": "[0-9]?[0-9] d",
+            "user": "12",
+            "id": "ck3r0nsk100062c7rv3latxoq"
+          },
+          "ck3r0ntvt00042c7thppzn7v9": {
+            "order": 25,
+            "msg": "([0-9][1,9]){0,2} (dB)",
+            "user": "7",
+            "id": "ck3r0ntvt00042c7thppzn7v9"
+          },
+          "ck3r0nvrp00042c7r1xe2p0gi": {
+            "order": 26,
+            "msg": "(0|[0-9]+) dB",
+            "user": "11",
+            "id": "ck3r0nvrp00042c7r1xe2p0gi"
+          },
+          "ck3r0nvvl00032c7rtqgqxyfq": {
+            "order": 27,
+            "msg": "?[1-9][0-9]+ dB",
+            "user": "3",
+            "id": "ck3r0nvvl00032c7rtqgqxyfq"
+          },
+          "ck3r0o1ah00072c7rue48cbz6": {
+            "order": 28,
+            "msg": "[0-9]?[0-9] dB",
+            "user": "12",
+            "id": "ck3r0o1ah00072c7rue48cbz6"
+          },
+          "ck3r0o98800042c7rb5bbbzun": {
+            "order": 29,
+            "msg": "[1-9]?[0-9]\\+ dB",
+            "user": "3",
+            "id": "ck3r0o98800042c7rb5bbbzun"
+          },
+          "ck3r0ob1g00022c7tf9tmwtql": {
+            "order": 30,
+            "msg": "[0,9]|[0,9] dB",
+            "user": "14",
+            "id": "ck3r0ob1g00022c7tf9tmwtql"
+          },
+          "ck3r0opv800012c7rkwz24yv6": {
+            "order": 31,
+            "msg": "[1-9]?[0-9] dB",
+            "user": "10",
+            "id": "ck3r0opv800012c7rkwz24yv6"
+          },
+          "ck3r0osof00052c7rq4gi0l5d": {
+            "order": 32,
+            "msg": "[1-9]?[0-9] [ dB]",
+            "user": "3",
+            "id": "ck3r0osof00052c7rq4gi0l5d"
+          },
+          "ck3r0peur00032c7tzqiozmhy": {
+            "order": 33,
+            "msg": "BRAVO !",
+            "user": "14",
+            "id": "ck3r0peur00032c7tzqiozmhy"
+          },
+          "ck3r0q2ji00082c7ruuwdlh28": {
+            "order": 34,
+            "msg": "Merci",
+            "user": "12",
+            "id": "ck3r0q2ji00082c7ruuwdlh28"
+          },
+          "ck3r0r3pd00042c7tp5ajazj0": {
+            "order": 35,
+            "msg": "[1-9]?[0-9] |[ dB]",
+            "user": "14",
+            "id": "ck3r0r3pd00042c7tp5ajazj0"
+          },
+          "ck3r0rfzy00022c7rjik3onsy": {
+            "order": 36,
+            "msg": "[1-9]?[0-9] dB|db|",
+            "user": "10",
+            "id": "ck3r0rfzy00022c7rjik3onsy"
+          },
+          "ck3r0rxvh00092c7rpma2aw62": {
+            "order": 37,
+            "msg": "[1-9]?[0-9] d[Bb]|([d[Bb]])",
+            "user": "12",
+            "id": "ck3r0rxvh00092c7rpma2aw62"
+          },
+          "ck3r0rxwj00062c7r2hbanvc1": {
+            "order": 38,
+            "msg": "[1-9]?[0-9] (dB| \\[dB]|db)",
+            "user": "3",
+            "id": "ck3r0rxwj00062c7r2hbanvc1"
+          },
+          "ck3r0s3fg00032c7r5fql4hm8": {
+            "order": 39,
+            "msg": "[1-9]?[0-9] (dB|db)",
+            "user": "10",
+            "id": "ck3r0s3fg00032c7r5fql4hm8"
+          },
+          "ck3r0sb6g00052c7rrpkyk4d3": {
+            "order": 40,
+            "msg": "[1-9]?[0-9] (dB|\\[db\\]|\\[dB\\])",
+            "user": "11",
+            "id": "ck3r0sb6g00052c7rrpkyk4d3"
+          },
+          "ck3r0sj3w000a2c7rbwett7cq": {
+            "order": 41,
+            "msg": "[1-9]?[0-9] d[Bb]|([d[Bb]])",
+            "user": "12",
+            "id": "ck3r0sj3w000a2c7rbwett7cq"
+          },
+          "ck3r0sj4j00072c7rwcowztg6": {
+            "order": 42,
+            "msg": "[1-9]?[0-9] (dB| \\[dB\\]|db)",
+            "user": "3",
+            "id": "ck3r0sj4j00072c7rwcowztg6"
+          },
+          "ck3r0sywb00052c7tqq1oe5l3": {
+            "order": 43,
+            "msg": "[1-9]?[0-9] dB| (\\[ db\\])|(\\[ dB\\])",
+            "user": "7",
+            "id": "ck3r0sywb00052c7tqq1oe5l3"
+          },
+          "ck3r0t39j00012c7t3eoidvja": {
+            "order": 44,
+            "msg": "[1-9]?[0-9] {\\dB | \\db | \\[db] \\[dB]}",
+            "user": "9",
+            "id": "ck3r0t39j00012c7t3eoidvja"
+          },
+          "ck3r0t6fe00082c7rxsdzmd20": {
+            "order": 45,
+            "msg": "[1-9]?[0-9] (dB|\\db\\|\\[dB\\])",
+            "user": "3",
+            "id": "ck3r0t6fe00082c7rxsdzmd20"
+          },
+          "ck3r0t9zz00012c7tpxv5a3ze": {
+            "order": 46,
+            "msg": "[1-9]?[0-9] (dB|db|[db])",
+            "user": "8",
+            "id": "ck3r0t9zz00012c7tpxv5a3ze"
+          },
+          "ck3r0tgsu00032c7txeldzwt9": {
+            "order": 47,
+            "msg": "[1-9]?[0-9] (db|dB/[db])",
+            "user": "13",
+            "id": "ck3r0tgsu00032c7txeldzwt9"
+          },
+          "ck3r0ti7t00042c7rghcya173": {
+            "order": 48,
+            "msg": "[1-9]?[0-9] (Db|\\[db\\]|\\[dB\\])",
+            "user": "10",
+            "id": "ck3r0ti7t00042c7rghcya173"
+          },
+          "ck3r0tifi00022c7thfiew768": {
+            "order": 49,
+            "msg": "[1-9]?[0-9] (\\dB | \\db | \\[db] \\[dB])",
+            "user": "9",
+            "id": "ck3r0tifi00022c7thfiew768"
+          },
+          "ck3r0tpft00092c7rhu7tevky": {
+            "order": 50,
+            "msg": "[1-9]?[0-9] (dB|db\\|\\[dB\\])",
+            "user": "3",
+            "id": "ck3r0tpft00092c7rhu7tevky"
+          },
+          "ck3r0tpss000b2c7r4rku92hm": {
+            "order": 50,
+            "msg": "[1-9]?[0-9] (dB|\\[db\\]|\\[dB\\]|db)",
+            "user": "12",
+            "id": "ck3r0tpss000b2c7r4rku92hm"
+          },
+          "ck3r0tsrn00022c7tvv2otpqp": {
+            "order": 52,
+            "msg": "[1-9]?[0-9] (dB|\\[db\\]|\\[dB\\]|\\Db)",
+            "user": "15",
+            "id": "ck3r0tsrn00022c7tvv2otpqp"
+          },
+          "ck3r0tsvz00062c7rltrxnuyb": {
+            "order": 53,
+            "msg": "[1-9]?[0-9] (dB| \\[dB\\]|db|\\[db\\])",
+            "user": "11",
+            "id": "ck3r0tsvz00062c7rltrxnuyb"
+          },
+          "ck3r0tvwp000a2c7rvzx0jhui": {
+            "order": 54,
+            "msg": "[1-9]?[0-9] (dB|db|\\[dB\\])",
+            "user": "3",
+            "id": "ck3r0tvwp000a2c7rvzx0jhui"
+          },
+          "ck3r0u1va00042c7t0hukxck8": {
+            "order": 55,
+            "msg": "[1-9]?[0-9] (db\\dB\\[db])",
+            "user": "13",
+            "id": "ck3r0u1va00042c7t0hukxck8"
+          },
+          "ck3r0u89g000b2c7riq2fetzp": {
+            "order": 56,
+            "msg": "[1-9]?[0-9] (dB|db|\\[dB\\])",
+            "user": "3",
+            "id": "ck3r0u89g000b2c7riq2fetzp"
+          },
+          "ck3r0ubw400052c7tvmjvuf9r": {
+            "order": 57,
+            "msg": "\n[1-9]?[0-9] (dB|\\[db\\]|\\[dB\\]) \\ dB",
+            "user": "14",
+            "id": "ck3r0ubw400052c7tvmjvuf9r"
+          },
+          "ck3r0uqyk00022c7twzshk9wu": {
+            "order": 58,
+            "msg": "[1-9]?[0-9] (dB| \\[db\\]|db|\\[db\\])",
+            "user": "8",
+            "id": "ck3r0uqyk00022c7twzshk9wu"
+          },
+          "ck3r0uz8g000c2c7r9hhthqzf": {
+            "order": 59,
+            "msg": "[1-9]?[0-9] ?(dB|db|\\[dB\\])",
+            "user": "3",
+            "id": "ck3r0uz8g000c2c7r9hhthqzf"
+          },
+          "ck3r0v016000c2c7rhrm54swk": {
+            "order": 60,
+            "msg": "[1-9]?[0-9] (dB|\\[db\\]|\\[dB\\]|db)",
+            "user": "12",
+            "id": "ck3r0v016000c2c7rhrm54swk"
+          },
+          "ck3r0v2dw00032c7ts28hyt0j": {
+            "order": 61,
+            "msg": "[1-9]?[0-9] (dB|\\[dB\\]|db|\\[db\\])",
+            "user": "9",
+            "id": "ck3r0v2dw00032c7ts28hyt0j"
+          },
+          "ck3r0v2vc00062c7t0adwt5ma": {
+            "order": 62,
+            "msg": "[1-9]?[0-9] (dB|\\[dB\\]|db|\\[db\\])",
+            "user": "7",
+            "id": "ck3r0v2vc00062c7t0adwt5ma"
+          },
+          "ck3r0v35e00072c7rdvkn0hju": {
+            "order": 63,
+            "msg": "[1-9]?[0-9] (dB|\\[dB\\]|db|\\[db\\])",
+            "user": "11",
+            "id": "ck3r0v35e00072c7rdvkn0hju"
+          },
+          "ck3r0v5iw00032c7tivayeemf": {
+            "order": 64,
+            "msg": "[1-9]?[0-9] (dB|\\[db\\]|\\[dB\\]|db)",
+            "user": "15",
+            "id": "ck3r0v5iw00032c7tivayeemf"
+          },
+          "ck3r0ynp400043h7gtogyun64": {
+            "order": 65,
+            "msg": "Q5",
+            "user": "Timoté Vaucher",
+            "id": "ck3r0ynp400043h7gtogyun64"
+          },
+          "ck3r0yvg500053h7gh7m26vh3": {
+            "order": 66,
+            "msg": "Q4*",
+            "user": "Timoté Vaucher",
+            "id": "ck3r0yvg500053h7gh7m26vh3"
+          },
+          "ck3r0yzyq000d2c7rm04bjvh7": {
+            "order": 67,
+            "msg": "[a-zA-Z0-9]{1,32}",
+            "user": "3",
+            "id": "ck3r0yzyq000d2c7rm04bjvh7"
+          },
+          "ck3r0z6tq00052c7towxezwzc": {
+            "order": 68,
+            "msg": "[a-z0-9]*",
+            "user": "13",
+            "id": "ck3r0z6tq00052c7towxezwzc"
+          },
+          "ck3r0z76n00042c7tjj8vvolz": {
+            "order": 69,
+            "msg": "[a-z0-9]{32}",
+            "user": "9",
+            "id": "ck3r0z76n00042c7tjj8vvolz"
+          },
+          "ck3r0z7gq000e2c7r8z87e1cj": {
+            "order": 70,
+            "msg": "[a-zA-Z0-9]{32}",
+            "user": "3",
+            "id": "ck3r0z7gq000e2c7r8z87e1cj"
+          },
+          "ck3r0zbgs000d2c7rcbh3aop5": {
+            "order": 71,
+            "msg": "([0-9]|[a-f]){32]",
+            "user": "12",
+            "id": "ck3r0zbgs000d2c7rcbh3aop5"
+          },
+          "ck3r0zdck00082c7riy1s5hma": {
+            "order": 72,
+            "msg": "[0-9a-f]{32}",
+            "user": "11",
+            "id": "ck3r0zdck00082c7riy1s5hma"
+          },
+          "ck3r0zeh800062c7tm3i2cifq": {
+            "order": 73,
+            "msg": "[a-b0-9]{32}",
+            "user": "14",
+            "id": "ck3r0zeh800062c7tm3i2cifq"
+          },
+          "ck3r0zhht000f2c7r4d9tdqak": {
+            "order": 74,
+            "msg": "[a-f0-9]{32}",
+            "user": "3",
+            "id": "ck3r0zhht000f2c7r4d9tdqak"
+          },
+          "ck3r0zl6s000e2c7rsxdvt9yq": {
+            "order": 75,
+            "msg": "([0-9]|[a-f]){32}",
+            "user": "12",
+            "id": "ck3r0zl6s000e2c7rsxdvt9yq"
+          },
+          "ck3r0zlwu00052c7tdp41sjk2": {
+            "order": 76,
+            "msg": "[a-f0-9]{32}",
+            "user": "9",
+            "id": "ck3r0zlwu00052c7tdp41sjk2"
+          },
+          "ck3r0zn8l00062c7t8k9xi7o2": {
+            "order": 77,
+            "msg": "[a-f0-9]*",
+            "user": "13",
+            "id": "ck3r0zn8l00062c7t8k9xi7o2"
+          },
+          "ck3r0zt0y00042c7t5pg4uqsz": {
+            "order": 78,
+            "msg": "[0-9a-f]{32}",
+            "user": "15",
+            "id": "ck3r0zt0y00042c7t5pg4uqsz"
+          },
+          "ck3r1018r00072c7tca1iapaa": {
+            "order": 79,
+            "msg": "[a-f0-9]{32}",
+            "user": "14",
+            "id": "ck3r1018r00072c7tca1iapaa"
+          },
+          "ck3r11i9d00063h7gnw4rru4k": {
+            "order": 80,
+            "msg": "Question 5",
+            "user": "Timoté Vaucher",
+            "id": "ck3r11i9d00063h7gnw4rru4k"
+          },
+          "ck3r125sj00062c7tn4ah5e09": {
+            "order": 81,
+            "msg": "[a-f0-9] {32}",
+            "user": "9",
+            "id": "ck3r125sj00062c7tn4ah5e09"
+          },
+          "ck3r12qwv00082c7tgtjqxars": {
+            "order": 82,
+            "msg": "8",
+            "user": "14",
+            "id": "ck3r12qwv00082c7tgtjqxars"
+          },
+          "ck3r12r5y000g2c7rhqvncb9g": {
+            "order": 83,
+            "msg": "56",
+            "user": "3",
+            "id": "ck3r12r5y000g2c7rhqvncb9g"
+          },
+          "ck3r12rxz00072c7tkaz6651y": {
+            "order": 84,
+            "msg": "48",
+            "user": "7",
+            "id": "ck3r12rxz00072c7tkaz6651y"
+          },
+          "ck3r12s6g00072c7t0owbe3sb": {
+            "order": 85,
+            "msg": "24",
+            "user": "13",
+            "id": "ck3r12s6g00072c7t0owbe3sb"
+          },
+          "ck3r12tyr00052c7tcwsumjy5": {
+            "order": 86,
+            "msg": "6*8",
+            "user": "15",
+            "id": "ck3r12tyr00052c7tcwsumjy5"
+          },
+          "ck3r12vkd00012c7t5qnsxqcv": {
+            "order": 87,
+            "msg": "40",
+            "user": "8",
+            "id": "ck3r12vkd00012c7t5qnsxqcv"
+          },
+          "ck3r12w6f00092c7tafwtxcq7": {
+            "order": 88,
+            "msg": "16",
+            "user": "14",
+            "id": "ck3r12w6f00092c7tafwtxcq7"
+          },
+          "ck3r131n500082c7t12b6x8io": {
+            "order": 89,
+            "msg": "48",
+            "user": "13",
+            "id": "ck3r131n500082c7t12b6x8io"
+          },
+          "ck3r132xp000h2c7rdv10psyq": {
+            "order": 90,
+            "msg": "0 ou 1",
+            "user": "3",
+            "id": "ck3r132xp000h2c7rdv10psyq"
+          },
+          "ck3r1333h00062c7t9chzr781": {
+            "order": 91,
+            "msg": "6^8",
+            "user": "15",
+            "id": "ck3r1333h00062c7t9chzr781"
+          },
+          "ck3r133n1000i2c7rqnr2zpva": {
+            "order": 92,
+            "msg": "2",
+            "user": "3",
+            "id": "ck3r133n1000i2c7rqnr2zpva"
+          },
+          "ck3r155gl00012c7r1jpwuurd": {
+            "order": 93,
+            "msg": "Pas d'excuse",
+            "user": "12",
+            "id": "ck3r155gl00012c7r1jpwuurd"
+          }
+        }
+      }
+    }
+  },
+  "type": "product"
+}
