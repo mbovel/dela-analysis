@@ -1,0 +1,40 @@
+{
+  "_id": "ck3qxw5hb00xj01ywec7devxj",
+  "graphId": "ck3qxw5h900x701yw3qxa39uj",
+  "length": 5,
+  "plane": 1,
+  "startTime": 38,
+  "title": "Final Quiz",
+  "activityType": "ac-quiz",
+  "configVersion": 1,
+  "template": {
+    "rz": {
+      "justification": "",
+      "form": {
+        "0": {"text": ""},
+        "1": {"text": ""},
+        "2": {"text": ""},
+        "3": {"text": ""},
+        "4": {"text": ""},
+        "5": {"text": ""}
+      },
+      "coordinates": {"x": 0, "y": 0, "valid": false}
+    },
+    "lis": {}
+  },
+  "state": "computed",
+  "templateRZCloned": {
+    "justification": "",
+    "form": {
+      "0": {"text": ""},
+      "1": {"text": ""},
+      "2": {"text": ""},
+      "3": {"text": ""},
+      "4": {"text": ""},
+      "5": {"text": ""}
+    },
+    "coordinates": {"x": 0, "y": 0, "valid": false}
+  },
+  "actualStartingTime": "2019-12-04T08:29:06.176Z",
+  "actualClosingTime": "2019-12-04T08:46:10.143Z"
+}

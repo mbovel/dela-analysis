@@ -1,0 +1,31 @@
+{
+  "_id": "ck42p0tul000g01yw3pwt5dki",
+  "type": "social",
+  "socialStructure": {
+    "group": {
+      "gr1": ["TTA3wnBvnrgbegTGL", "YR3xW7MSKf3Cn32g8", "BrujMm2bMgouDBqnd"],
+      "gr2": ["vMkDDhfGQ3dS9eRYt", "qfRxBS2J36LezSKnt", "zpDPvHc94BGcj4YCT"],
+      "gr4": ["RbBQv7qMZ843Z32hc", "9EAfwFmmpqWyaR9tt", "MCAyeq9jrNSteH4LP"],
+      "gr3": ["cx4X7QoFJDgF6ZKE8", "vej69vuEoMCHp32EW", "aH54ceovXmmL46tum"],
+      "gr5": ["RQam3nPuq39MfgodH", "Yv9MA2mad8oRkfLKM", "x7RzaqXj9mvRa3CSs"],
+      "gr7": [
+        "5XNsb4uGwzfMTju6k",
+        "bAhsRdCdhbdmSA3Xi",
+        "q8biAe3WaHsk7nf8Z",
+        "5WhF9JRKgzSnh2Pmg"
+      ],
+      "gr9": [
+        "R6qzaCgXjNYygqdpq",
+        "6RjEZxeEy5KtaKS8t",
+        "BNCXjnCg8n4rBniF8",
+        "fyoExCdSZ7pRc5iEy",
+        "6EuZwJzgM29xG8QfZ",
+        "aqHgyk7dhXHphXgBX",
+        "aKKMSBicTdxy2yzaP",
+        "Nr6JEmySnhS9nuzWB",
+        "oGpbJcopx6D3FzcpC"
+      ],
+      "gr6": ["4ZaXbiq3EtrCdDdGf", "XfmF5oW3oo59ciWMa", "iSXfJDZ4btqYb8X5i"]
+    }
+  }
+}

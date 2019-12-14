@@ -1,0 +1,60 @@
+{
+  "shuffle": "none",
+  "questions": [
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "answers": [],
+      "question": "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>"
+    },
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "question": "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>"
+    },
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "question": "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>"
+    },
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "question": "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>"
+    },
+    {
+      "multiple": false,
+      "text": false,
+      "value": false,
+      "question": "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+      "answers": [{"choice": "Oui"}, {"choice": "Non", "isCorrect": true}]
+    },
+    {
+      "multiple": false,
+      "text": false,
+      "value": false,
+      "question": "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+      "answers": [
+        {"choice": "Oui, j'en ai déjà entendu parlé"},
+        {"choice": "Oui, j'en écris déjà matin, midi et soir"},
+        {"choice": "Non. c'est un nouveau concept"}
+      ]
+    },
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "question": "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+    }
+  ],
+  "title": "Quiz final",
+  "guidelines": "<p><br></p>",
+  "advancedConfig": true,
+  "hasAnswers": false,
+  "showOne": false,
+  "allowSkip": true
+}

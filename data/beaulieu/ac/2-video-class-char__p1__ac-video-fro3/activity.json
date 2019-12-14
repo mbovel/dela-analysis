@@ -1,0 +1,15 @@
+{
+  "_id": "ck42p0tul000701yw389bfro3",
+  "graphId": "ck42p0tuj000301yw5lb4gi2v",
+  "length": 5,
+  "plane": 1,
+  "startTime": 17,
+  "title": "Video Class char",
+  "activityType": "ac-video",
+  "configVersion": 1,
+  "createdAt": "2019-12-02T16:40:52.710Z",
+  "template": null,
+  "state": "computed",
+  "actualStartingTime": "2019-12-12T12:45:58.622Z",
+  "actualClosingTime": "2019-12-12T12:53:49.873Z"
+}

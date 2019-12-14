@@ -1,0 +1,13 @@
+{
+  "structure": {"groupingKey": "group"},
+  "payload": {
+    "gr1": {"data": {}},
+    "gr2": {"data": {}},
+    "gr3": {"data": {}},
+    "gr4": {"data": {}},
+    "gr5": {"data": {}},
+    "gr6": {"data": {}},
+    "gr7": {"data": {}},
+    "gr9": {"data": {}}
+  }
+}

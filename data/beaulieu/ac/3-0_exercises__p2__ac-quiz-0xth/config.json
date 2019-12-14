@@ -1,0 +1,48 @@
+{
+  "shuffle": "none",
+  "questions": [
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "answers": [],
+      "question": "<p>Écrire une expression régulière correspondant à une date au format <code>YYYY-MM-DD</code> où chaque lettre correspond à une nombre entre 0 et 9.</p>\n<p><br>\nPar exemple:<br>\n<code>2019-12-04</code><br>\n<code>2020-13-32</code></p>\n<p>Mais pas:<br>\n<code>2019-1-1</code><br>\n<code>2019-01-1</code></p>"
+    },
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "question": "<p>Écrire une expression régulière correspondant à un mot (suite d'au moins une lettre majuscule ou minuscule) ou un nombre d'au moins un chiffre (le nombre peut commencer par un zero).<br>\nPar exemple:<br>\n<code>BoNJOUR</code><br>\n<code>salut</code><br>\n<code>SALUT</code><br>\n<code>01234</code><br>\n<code>45678</code></p>\n<p>Mais pas:<br>\n<code>s4lut</code></p>"
+    },
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "question": "<p>Écrire une expression régulière correspondant à une suite de Oh (entre deux et seize occurences) et se terminant par un !.<br>\nPar exemple:<br>\n<code>Oh Oh !</code><br>\n<code>Oh Oh Oh !</code></p>\n<p>Mais pas:<br>\n<code>Oh !</code><br>\n<code>Oh Oh!</code><br>\n<code>!</code></p>"
+    },
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "question": "<p>Écrire une expression régulière correspondant à une suite d’un nombre pair du caractère * (au minimum 2)<br>\nPar exemple:<br>\n<code>**</code><br>\n<code>****</code></p>\n<p>Mais pas:<br>\n<code>*</code><br>\n<code>***</code></p>"
+    },
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "question": "<p>Écrire une expression régulière correspondant à une paire “Prénom Nom” uniquement pour les noms de plus de 7 caractères.<br>\nPar exemple:<br>\n<code>Jacky Tunning</code><br>\n<code>Stan Wawrinka</code></p>\n<p>Mais pas:<br>\n<code>jacky tunning</code><br>\n<code>Jacky tunning</code><br>\n<code>Matthieu Bovel</code></p>"
+    },
+    {
+      "multiple": false,
+      "text": true,
+      "value": false,
+      "question": "<p>Écrire une expression régulière correspondant à une suite de coordonnées entières du plan séparées par des virgules. Une virgule en fin de chaîne est autorisée. <br>\nPar exemple:<br>\n<code>(1,2), (5,6), (-3,-4),</code><br>\n<code>(1,2),</code></p>\n<p>Mais pas:<br>\n<code>,</code><br>\n<code>(a,b)</code><br>\n<code>(-1,2),(3,4),</code></p>"
+    }
+  ],
+  "title": "Exercices",
+  "guidelines": "<p>Pour vous entraîner, répondez aux questions suivantes à l'aide de l'interface sur la droite de l'écran</p>",
+  "advancedConfig": true,
+  "hasAnswers": false,
+  "showOne": false,
+  "allowSkip": true
+}

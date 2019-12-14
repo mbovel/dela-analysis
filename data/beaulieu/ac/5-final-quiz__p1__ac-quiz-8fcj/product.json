@@ -1,0 +1,1035 @@
+{
+  "structure": "individual",
+  "payload": {
+    "4ZaXbiq3EtrCdDdGf": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "16 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?-+>?"},
+          "1": {"text": "[0-9]*[0,2,4,6,8]"},
+          "2": {"text": "[0-9]+([\\,,.][0-9]+)?"},
+          "3": {"text": "Hey,HeyHey,HeyHeyHey,HeyHeyHeyHey,HeyHeyHeyHeyHey"},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "Original, assez efficace, sympa"}
+        }
+      }
+    },
+    "5WhF9JRKgzSnh2Pmg": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "22 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?(\\-)+>?"},
+          "1": {"text": "2\\*(1|2)+"},
+          "2": {"text": "[0-9](\\.|,[0-9])?"},
+          "3": {"text": "Hey, Hey , HeyO, HeyUhUh, Hey OO"},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {
+            "text": "C''était assez amusant de découvrir de nouvelles choses qui me serviront peut-être plus tard. Merci !"
+          }
+        }
+      }
+    },
+    "5XNsb4uGwzfMTju6k": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Non",
+          "Oui, j'en ai déjà entendu parlé",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 1, 0, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "19 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Non.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Oui, j'en ai déjà entendu parlé.",
+        "form": {
+          "0": {"text": "<?-+>?"},
+          "1": {"text": "([2468])|([1-9][0-9]*[02468])"},
+          "2": {"text": "([0-9]*.[0-9]*)|([0-9]*,[0-9]*)"},
+          "3": {"text": "Hey,HeyHey,HeyHeyHey,HeyHeyHeyHey,Hey Oh"},
+          "4": {"1": true, "text": ""},
+          "5": {"0": true, "text": ""},
+          "6": {
+            "text": "Très intéressant, avec l'outil informatique de Frog c'était très pratique. "
+          }
+        }
+      }
+    },
+    "6EuZwJzgM29xG8QfZ": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [null, null, null, null, null, null, null],
+        "answersIndex": [-1, -1, -1, -1, -1, -1, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"text": ""},
+          "5": {"text": ""},
+          "6": {"text": ""}
+        }
+      }
+    },
+    "6RjEZxeEy5KtaKS8t": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [null, null, null, null, null, null, null],
+        "answersIndex": [-1, -1, -1, -1, -1, -1, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"text": ""},
+          "5": {"text": ""},
+          "6": {"text": ""}
+        }
+      }
+    },
+    "9EAfwFmmpqWyaR9tt": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "11 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "(<->)+"},
+          "1": {"text": "(2,)"},
+          "2": {"text": "[0-9]+"},
+          "3": {
+            "text": "HeyO Uh, Hey OUh, HeyHeyO Uh, HeyHey OUh, HeyHeyHeyO Uh"
+          },
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "Divertissant et intéressant "}
+        }
+      }
+    },
+    "BNCXjnCg8n4rBniF8": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [null, null, null, null, null, null, null],
+        "answersIndex": [-1, -1, -1, -1, -1, -1, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"text": ""},
+          "5": {"text": ""},
+          "6": {"text": ""}
+        }
+      }
+    },
+    "BrujMm2bMgouDBqnd": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "3 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?-+>?"},
+          "1": {"text": "[1-9]+[02468]"},
+          "2": {"text": "[0-9]+[.|,][0-9]+"},
+          "3": {"text": "HeyO, Hey O, HeyUh, Hey Uh, HeyHey"},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "Un cours d'informatique meilleur que d'habitude."}
+        }
+      }
+    },
+    "MCAyeq9jrNSteH4LP": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "12 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "[<\\>\\]?[-]{1,}[<\\>\\]?"},
+          "1": {"text": "2\\+2\\+"},
+          "2": {"text": "[0-9]+"},
+          "3": {
+            "text": "HeyO, Hey O, Hey Uh, HeyHeyHeyHeyHey O, HeyHeyHeyHeyHeyHeyHeyHeyHeyHeyHeyO"
+          },
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "[10]+ / 10\\    (10/10) nrvax o max"}
+        }
+      }
+    },
+    "Nr6JEmySnhS9nuzWB": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [null, null, null, null, null, null, null],
+        "answersIndex": [-1, -1, -1, -1, -1, -1, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"text": ""},
+          "5": {"text": ""},
+          "6": {"text": ""}
+        }
+      }
+    },
+    "R6qzaCgXjNYygqdpq": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [null, null, null, null, null, null, null],
+        "answersIndex": [-1, -1, -1, -1, -1, -1, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"text": ""},
+          "5": {"text": ""},
+          "6": {"text": ""}
+        }
+      }
+    },
+    "RQam3nPuq39MfgodH": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Non",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 1, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "13 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Non.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "(<}?(-)+(>)?"},
+          "1": {"text": "[1-9]*(2|4|6|8|0)"},
+          "2": {"text": "[0-9]+(.|,)[0-9]*"},
+          "3": {"text": "Hey,Hey O,HeyO,Hey Uh,HeyUh\n"},
+          "4": {"1": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "C'étai vraiment sympa, surtout le chocolat."}
+        }
+      }
+    },
+    "RbBQv7qMZ843Z32hc": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "10 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": "[0-9]{1,}|(,)"},
+          "3": {"text": ""},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {
+            "text": "Très intéractif et intéressant, mais personnellement, j'aurais mieux réussi à apprendre si j'avais vu chaque vidéo individuellement à la place de me faire expliquer par mes camarades de classe. "
+          }
+        }
+      }
+    },
+    "TTA3wnBvnrgbegTGL": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "1 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?\\-+>?"},
+          "1": {"text": ""},
+          "2": {"text": "[0-9]+(.|,)?[0-9]"},
+          "3": {"text": "Hey, HeyHey, Hey O, HeyUh, HeyOO"},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "eh mercee pour le choco"}
+        }
+      }
+    },
+    "XfmF5oW3oo59ciWMa": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "18 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "{<}[-]{1, }{>}"},
+          "1": {"text": "[0-9]{1, }[0,2,4,6,8]"},
+          "2": {"text": "\n"},
+          "3": {"text": ""},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "Intéressant mais trop difficile "}
+        }
+      }
+    },
+    "YR3xW7MSKf3Cn32g8": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Non",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 1, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "2 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Non.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?\\-+>?"},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {
+            "text": "Hey, HeyHey, HeyHeyHey, HeyHeyHeyHey, HeyHeyHeyHeyHey"
+          },
+          "4": {"1": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "Propre le bail "}
+        }
+      }
+    },
+    "Yv9MA2mad8oRkfLKM": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "14 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "(-){1,}|(<)(-){1,}"},
+          "1": {"text": "(1-9)*(2|4|6|8|0)"},
+          "2": {"text": "[0-9]{1,}.[0-9]{1,}"},
+          "3": {"text": "Hey o, Hey Hey o, Hey Uh, Hey Hey Uh, Hey"},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {
+            "text": "C'est hyper sympa d'apprendre de cette manière ça change de d'habitude et c'est plus interactif, on voit moins le temps passé"
+          }
+        }
+      }
+    },
+    "aH54ceovXmmL46tum": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "9 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?[1,]>?"},
+          "1": {"text": "[1-9]{1,}[2]"},
+          "2": {"text": "[0-9]{1,};?[0-9]{1,}"},
+          "3": {
+            "text": "Hey uh Hey o Hey Hey o Hey Hey uh Hey ooooooooooooooooooooooooooooooooooooooooooooooo\n\n\n\n"
+          },
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "sympa le chocolat est bon :)"}
+        }
+      }
+    },
+    "aKKMSBicTdxy2yzaP": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [null, null, null, null, null, null, null],
+        "answersIndex": [-1, -1, -1, -1, -1, -1, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"text": ""},
+          "5": {"text": ""},
+          "6": {"text": ""}
+        }
+      }
+    },
+    "aqHgyk7dhXHphXgBX": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [null, null, null, null, null, null, null],
+        "answersIndex": [-1, -1, -1, -1, -1, -1, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"text": ""},
+          "5": {"text": ""},
+          "6": {"text": ""}
+        }
+      }
+    },
+    "bAhsRdCdhbdmSA3Xi": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "20 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "(\\<)?(\\-)+(\\>)?"},
+          "1": {"text": "[0-9]+[02468]"},
+          "2": {"text": "([0-9]+)?(.|,)?[0-9]+"},
+          "3": {
+            "text": "Hey\nHey Hey\nHey Hey Hey\nHey Hey Hey Hey\nHey Hey Hey Hey Hey"
+          },
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "Au top\n"}
+        }
+      }
+    },
+    "cx4X7QoFJDgF6ZKE8": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Non",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 1, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "7 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Non.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?-+>?"},
+          "1": {"text": "([1-9][0-9]*[02468])|[02468]"},
+          "2": {"text": "([0-9]+[.,][0-9]+)|([0-9]+)"},
+          "3": {
+            "text": "Hey O, HeyHeyHeyUhUhUh, HeyHey , Hey, HeyHeyOOOOOOOOO"
+          },
+          "4": {"1": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {
+            "text": "Très intéressante et divertissante, le concept d’expression régulière est très fun"
+          }
+        }
+      }
+    },
+    "fyoExCdSZ7pRc5iEy": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [null, null, null, null, null, null, null],
+        "answersIndex": [-1, -1, -1, -1, -1, -1, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"text": ""},
+          "5": {"text": ""},
+          "6": {"text": ""}
+        }
+      }
+    },
+    "iSXfJDZ4btqYb8X5i": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "17 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "(<|-)(-)(>|-)"},
+          "1": {"text": "[n*2]"},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {
+            "text": "très instructive et très bon moyen d'interaction avec la classe"
+          }
+        }
+      }
+    },
+    "oGpbJcopx6D3FzcpC": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [null, null, null, null, null, null, null],
+        "answersIndex": [-1, -1, -1, -1, -1, -1, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "form": {
+          "0": {"text": ""},
+          "1": {"text": ""},
+          "2": {"text": ""},
+          "3": {"text": ""},
+          "4": {"text": ""},
+          "5": {"text": ""},
+          "6": {"text": ""}
+        }
+      }
+    },
+    "q8biAe3WaHsk7nf8Z": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Non",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 1, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "21 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Non.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?[\\-]+>?"},
+          "1": {"text": "[0-9]+[02468]"},
+          "2": {"text": "[0-9]+(.|,[0-9]+)?"},
+          "3": {"text": "HeyHeyHey oooo, Hey, HeyHeyUhUh"},
+          "4": {"1": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "C'était très intéressant"}
+        }
+      }
+    },
+    "qfRxBS2J36LezSKnt": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Non",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 1, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "4 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Non.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?-+>?\n"},
+          "1": {"text": "(\\1\\1)+"},
+          "2": {"text": "[0-9]*,[0-9]*"},
+          "3": {"text": "Hey OOOOOOOO"},
+          "4": {"1": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "Franchement, propre le bail."}
+        }
+      }
+    },
+    "vMkDDhfGQ3dS9eRYt": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "6 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?\\-+>?"},
+          "1": {"text": "[0,2,4,6,8]+"},
+          "2": {"text": "[0-9]+(\\,|\\.)[0-9]?"},
+          "3": {"text": "Heyo, Heyy Uh, Heyyy , Heyyy o, Heyyyyyyy,"},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "Super chouette et intéressant !!!!"}
+        }
+      }
+    },
+    "vej69vuEoMCHp32EW": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "8 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "(<|>)?+[\\-]+"},
+          "1": {"text": "[1-9]{1,}"},
+          "2": {"text": "[0-9]+\\,|\\.[0-9]+"},
+          "3": {"text": "Hey Hey o, Hey o, Hey Uh, Hey Uh Uh, Hey Uh Uh Uh"},
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "cool"}
+        }
+      }
+    },
+    "x7RzaqXj9mvRa3CSs": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Oui",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 0, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "15 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Oui.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?-+>?"},
+          "1": {"text": "[0-9]*[0,2,4,6,8]"},
+          "2": {"text": "[0-9]+([.,\\,][0-9]+)?"},
+          "3": {
+            "text": "Hey OOOO, HeyHeyHey, HeyHeyHeyUhUhUh, HeyHeyHeyHeyHeyHeyHey, HeyHeyOOO"
+          },
+          "4": {"0": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "intéressant"}
+        }
+      }
+    },
+    "zpDPvHc94BGcj4YCT": {
+      "data": {
+        "questions": [
+          "<p>Ecrire une expression régulière correspondant à une suite de un ou plusieurs tirets, pouvant se commencer par un chevron ouvrant ou non et se terminer par un chevron fermant ou non.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>-------</code></li>\n  <li><code>&lt;---</code></li>\n  <li><code>--&gt;</code></li>\n  <li><code>&lt;-&gt;</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>&gt;---</code></li>\n  <li><code>--&gt;-</code></li>\n  <li><code>-&lt;-</code></li>\n  <li><code>&gt;--&lt;</code></li>\n</ul>",
+          "<p>Écrivez une expression régulière correspondant à n’importe quel multiple de 2.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>2</code></li>\n  <li><code>8</code></li>\n  <li><code>5262</code></li>\n  <li><code>106</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>1</code></li>\n  <li><code>201</code></li>\n  <li><code>10001</code></li>\n</ul>",
+          "<p>Écrire une expression régulière correspondant aux nombres entiers ou à virgule. La partie décimale doit pouvoir être séparée par un point ou une virgule.</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>0.5</code></li>\n  <li><code>0</code></li>\n  <li><code>00</code></li>\n  <li><code>5</code></li>\n  <li><code>1234,1234</code></li>\n  <li><code>5.000</code></li>\n</ul>\n<p>Mais pas:</p>\n<p><code>56,56,56</code></p>",
+          "<p>Donner 5 correspondances possibles à cette expression régulière. <em>(Attention : il y a un espace entre le + et le ?)</em></p>\n<p><br>\n<code>(Hey)+ ?(O|Uh)*</code>&nbsp;</p>\n<p><em>Note: répondre avec 1 exemple par ligne</em></p>",
+          "<p>Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?</p>\n<p>Par exemple:</p>\n<ul>\n  <li><code>(a + b)</code></li>\n  <li><code>((a + 2) + c)</code></li>\n  <li><code>(3 + (5 + 2) + c)</code></li>\n</ul>\n<p>Mais pas:</p>\n<ul>\n  <li><code>(3 + a</code></li>\n  <li><code>((3 + a)</code></li>\n  <li><code>5 + b +</code></li>\n</ul>",
+          "<p>Avez-vous déjà été exposé aux expressions régulières avant ce cours ?</p>",
+          "<p>Qu'avez-vous pensé de cette leçon ?</p>"
+        ],
+        "answers": [
+          null,
+          null,
+          null,
+          null,
+          "Non",
+          "Non. c'est un nouveau concept",
+          null
+        ],
+        "answersIndex": [-1, -1, -1, -1, 1, 2, -1],
+        "maxCorrect": 7,
+        "coordinates": {"x": 0, "y": 0},
+        "msg": "5 answered the questions as follows: Est-il possible d’écrire une expression régulière correspondant à des expressions algébriques valides constituées d’additions, des variables, de nombres et de parenthèses ?\nPar exemple:\n\n  (a + b)\n  ((a + 2) + c)\n  (3 + (5 + 2) + c)\n\nMais pas:\n\n  (3 + a\n  ((3 + a)\n  5 + b +\n Non.  Avez-vous déjà été exposé aux expressions régulières avant ce cours ? Non. c'est un nouveau concept.",
+        "form": {
+          "0": {"text": "<?-+>?"},
+          "1": {"text": "2?4?6?8?"},
+          "2": {"text": "[0-9]+(\\.[0-9]+)?"},
+          "3": {"text": "HeyHey, , Hey0, Uh"},
+          "4": {"1": true, "text": ""},
+          "5": {"2": true, "text": ""},
+          "6": {"text": "mieux que les normaux"}
+        }
+      }
+    }
+  }
+}
